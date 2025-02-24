@@ -1,0 +1,28 @@
+# Ignore everything by default
+# *
+
+# Allow essential directories and files
+!.gitignore
+!index.php
+!plugins/
+!themes/
+!uploads/
+
+# Ignore all plugins except specific ones (if needed)
+plugins/*
+!plugins/index.php
+# !plugins/my-custom-plugin/  # Uncomment to track a specific plugin
+
+# Ignore WordPress core themes except your custom theme
+themes/twentytwentyfive
+.vscode
+# Ignore uploads (optional: track specific files)
+uploads/*
+!uploads/index.php
+
+# Ignore temporary and backup files
+upgrade/
+upgrade-temp-backup/
+
+# Ignore font directories (assuming they are not essential)
+fonts/
