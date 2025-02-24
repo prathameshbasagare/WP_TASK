@@ -3,6 +3,26 @@
 	"version": 3,
     "settings":{
         "appearanceTools":true,
+        "blocks": {
+            "core/navigation-link": {
+                "border": {
+                    "width": true,
+                    "style": true,
+                    "color": true,
+                    "radius": true
+                },
+                "shadow": true
+            },
+            "core/navigation":{
+                "border": {
+                    "width": true,
+                    "style": true,
+                    "color": true,
+                    "radius": true
+                },
+                "shadow": true
+            }
+        },
         "color": {
             "defaultDuotone": false,
 			"defaultGradients": false,
@@ -50,11 +70,29 @@
                 }
             ]
         }
+        
     },
     "styles":{
         "color": {
 			"background": "var:preset|color|base",
 			"text": "var:preset|color|contrast"
-		}
+		},
+        "blocks": {
+            "core/navigation":{
+                "elements": {
+                    "link":{
+                        "spacing": {
+                            "padding": {
+                                    "top": "10px",
+                                    "right": "10px",
+                                    "bottom": "10px",
+                                    "left": "10px"
+                                }
+                        }
+                    }
+                }
+            }
+        }
+       
     }
 }
