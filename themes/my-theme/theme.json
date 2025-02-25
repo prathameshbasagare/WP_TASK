@@ -3,6 +3,20 @@
 	"version": 3,
     "settings":{
         "appearanceTools":true,
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'PT Sans', sans-serif",
+                    "name": "PT Sans",
+                    "slug": "pt-sans"
+                },
+                {
+                    "fontFamily": "'Montserrat', sans-serif",
+                    "name": "Montserrat",
+                    "slug": "montserrat"
+                }
+            ]
+        },
         "blocks": {
             "core/navigation-link": {
                 "border": {
@@ -28,6 +42,11 @@
 			"defaultGradients": false,
 			"defaultPalette": false,
             "palette": [
+                {
+                    "color": "#F39B4E",
+                    "name": "Variant-5",
+                    "slug": "variant-5"
+                },
                 {
 					"color": "#FFFFFF",
 					"name": "Base",

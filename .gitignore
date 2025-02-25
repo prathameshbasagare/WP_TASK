@@ -11,7 +11,7 @@
 # Ignore all plugins except specific ones (if needed)
 plugins/*
 !plugins/index.php
-# !plugins/my-custom-plugin/  # Uncomment to track a specific plugin
+!plugins/pb-plugin/  
 
 # Ignore WordPress core themes except your custom theme
 themes/twentytwentyfive
