@@ -10,8 +10,10 @@
 
 # Ignore all plugins except specific ones (if needed)
 plugins/*
+plugins/*/node_modules
 !plugins/index.php
 !plugins/pb-plugin/  
+
 
 # Ignore WordPress core themes except your custom theme
 themes/twentytwentyfive
