@@ -2,6 +2,16 @@
     "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"version": 3,
     "settings":{
+        "layout": {
+			"contentSize": "645px",
+			"wideSize": "1125px"
+		},
+        "border": {
+            "color": true,
+            "width": true,
+            "radius": true,
+            "style": true
+        },
         "appearanceTools":true,
         "typography": {
             "fontWeight": true,
@@ -73,6 +83,11 @@
 
         },
         "blocks": {
+            "core/group":{
+                "border": {
+                    "color": true
+                }
+            },
             "core/navigation-link": {
                 "border": {
                     "width": true,
