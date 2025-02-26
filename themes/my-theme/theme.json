@@ -118,6 +118,11 @@
                     "slug": "variant-5"
                 },
                 {
+                    "color": "#696969",
+                    "name": "Variant 6",
+                    "slug": "variant-6"
+                },
+                {
 					"color": "#FFFFFF",
 					"name": "Base",
 					"slug": "base"
