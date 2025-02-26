@@ -1,0 +1,153 @@
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/pricing-block/main.css ***!
+  \********************************************************************************************************************************************************************************/
+.pricing-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.pricing-table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    display: flex;
+    width: 100%;
+}
+
+.pricing-column {
+    flex: 1;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.pricing-column:last-child {
+    border-right: none;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.label {
+    font-size: 16px;
+    color: #666;
+}
+
+.sign-up {
+    display: block;
+    background-color: #DC3636;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.apply {
+    font-size: 15px;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    width: 250px;
+    cursor: pointer;
+}
+
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/pricing-block/editor.css ***!
+  \**********************************************************************************************************************************************************************************/
+/* .wp-block-pb-plugin-pricing-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.pricing-table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    display: flex;
+    width: 100%;
+}
+
+.pricing-column {
+    flex: 1;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.pricing-column:last-child {
+    border-right: none;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.label {
+    font-size: 16px;
+    color: #666;
+}
+
+.sign-up {
+    display: block;
+    background-color: #DC3636;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.apply {
+    font-size: 15px;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    width: 250px;
+    cursor: pointer;
+}
+ */
+
+
+/*# sourceMappingURL=index.css.map*/

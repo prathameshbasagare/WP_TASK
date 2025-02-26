@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "pb-plugin/pricing-block",
+    "title": "Pricing Block",
+    "category": "design",
+    "icon": "art",
+    "description": "Adds a pricing block",
+    "keywords": ["pricing", "pb", "plugin"],
+    "version": "1",
+    "textdomain": "pb-plugin",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "priceMember": {
+            "type": "string",
+            "default": "$200"
+        },
+        "priceNonMember": {
+            "type": "string",
+            "default": "$259"
+        },
+        "signUpText": {
+            "type": "string",
+            "default": "Sign Up"
+        },
+        "applyButtonText": {
+            "type": "string",
+            "default": "Apply for Reduced-Rate Spot"
+        }
+    },
+    "style": "file:./index.css"
+}

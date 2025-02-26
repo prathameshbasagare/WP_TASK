@@ -3,7 +3,7 @@
 
 add_action( 'wp_enqueue_scripts', 'my_theme_styles' );
 add_action( 'wp_enqueue_scripts', 'p_custom_styles' );
-
+add_action('after_setup_theme','p_enqueue_editor_styles');
 add_action('wp_footer', 'my_theme_custom_js');
 function my_theme_styles() {
 	wp_enqueue_style( 
@@ -11,7 +11,11 @@ function my_theme_styles() {
 		get_stylesheet_uri()
 	);
 }
-
+function p_enqueue_editor_styles(){
+	add_editor_style(
+		get_theme_file_uri('/assets/css/editor-style.css')
+	);
+}
 function p_custom_styles(){
 	wp_enqueue_style( 
 		'p-custom-style', 
