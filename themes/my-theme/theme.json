@@ -3,7 +3,7 @@
 	"version": 3,
     "settings":{
         "layout": {
-			"contentSize": "645px",
+			"contentSize": "700px",
 			"wideSize": "1125px"
 		},
         "border": {
