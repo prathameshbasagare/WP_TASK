@@ -30,3 +30,30 @@ function my_theme_custom_js(){
 	);
 }
 
+
+function get_custom_meta_field($atts) {
+    $atts = shortcode_atts(array(
+        'field' => '',
+        'font_size' => '18px',
+        'font_family' => 'var(--wp--preset--font-family--pt-sans), sans-serif',
+        'color' => '#434343',
+		'style' => ''
+
+    ), $atts);
+
+    global $post;
+    $value = !empty($atts['field']) ? get_post_meta($post->ID, $atts['field'], true) : '';
+
+    if($atts['field']==='remote-class-info') {
+		$value = preg_replace('/([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/', '<strong style="color: #00ACB4;">$1</strong>', $value);
+	}
+	
+    return '<p style="font-size:' . esc_attr($atts['font_size']) . '; font-family:' . esc_attr($atts['font_family']) . '; color:' . esc_attr($atts['color']) . ';">' . $value . '</p>';
+}
+add_shortcode('custom_meta', 'get_custom_meta_field');
+
+
+function get_remote_class_section(){
+	return  '';
+}
+add_shortcode('remote_class_section','get_remote_class_section');
