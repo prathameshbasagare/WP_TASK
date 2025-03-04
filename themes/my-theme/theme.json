@@ -1,6 +1,16 @@
 {
     "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"version": 3,
+    "customTemplates": [
+        {
+            "name": "custom-page-template",
+            "title": "Custom Page",
+			"postTypes": [
+				"page",
+                "post"
+			]
+        }
+    ],
     "settings":{
         "layout": {
 			"contentSize": "700px",
